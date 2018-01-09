@@ -4,3 +4,26 @@ html {
   background-size: 45px autp;
   background-color: #bea586;
 }
+
+body,
+a {
+  background-color: #fff;
+  color: #000;
+}
+
+h1 {
+  text-shadow: 1px 1px #000;
+  z-index: 1000;
+  position: relative;
+  color: #fff;
+}
+
+.container {
+  border-top: 1px solid rgba(28, 14, 0, .5);
+  border-bottom: 1px solid rgba(28, 14, 0, .5);
+}
+
+.h1-container {
+  position: absolute;
+  z-index: 2000;
+}
